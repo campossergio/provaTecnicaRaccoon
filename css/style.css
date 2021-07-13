@@ -1,0 +1,726 @@
+@font-face {
+    font-family: segoeui;
+    src: url(../fonts/segoeui.ttf);
+}
+
+@font-face {
+    font-family: segoeuib;
+    src: url(../fonts/segoeuib.ttf);
+}
+
+@font-face {
+    font-family: segoeuil;
+    src: url(../fonts/segoeuil.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: segoeui;
+}
+
+/* MENU DE NAVEGAÇÃO */
+.navegacao {
+    background: #3366cc;
+}
+
+.botaoNav {
+    margin-right: 8%;
+    padding: 10px 15px 10px 15px;
+    background: rgb(22, 35, 95);
+    color: white;
+    border: none;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#logo {
+    margin-left: 5%;
+}
+
+nav div ul {
+    margin-left: 15%;
+}
+
+nav div ul li {
+    padding-left: 90px;
+}
+
+/* 1ª IMAGEM */
+#imagem {
+    background: url("../img/ballpen-blur-close-up.png");
+    background-size: 100;
+    height: 820px;
+    padding-top: 20%;
+}
+
+.textoImagem {
+    margin-left: 5%;
+    color: white;
+    font-size: 4.5rem;
+}
+
+.subTextoImagem {
+    margin-left: 5%;
+    color: white;
+    font-size: 2rem;
+    padding-top: 30px;
+}
+
+.botaoImagem {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    padding: 10px 45px;
+    background: #00ccff;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: xx-large;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#icone {
+    margin-left: 5%;
+    color: white;
+    font-size: 100px;
+}
+
+/*
+#imagem {
+    filter: brightness(50%);
+}
+*/
+
+/* TEXTOS E CARDS COLORIDOS */
+#textos {
+    margin-top: 100px;
+    font-size: 1.1rem;
+    color: #666666;
+    text-align: center;
+}
+
+#textos p strong {
+    color: orangered;
+}
+
+.titulo h1 {
+    margin-top: 100px;
+    color: #3366cc;
+    text-align: center;
+}
+
+.titulo p {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #666666;
+    text-align: center;
+}
+
+#componentes {
+    padding: 5px;
+    color: white;
+}
+
+#componente01 {
+    background-color: #0066cc;
+    align-items: center;
+    margin: 15px 10px 0 10px;
+}
+
+#componente02 {
+    background-color: #336699;
+    align-items: center;
+    margin: 15px 10px 0 10px;
+
+}
+
+#componente03 {
+    background-color: #336633;
+    align-items: center;
+    margin: 15px 10px 0 10px;
+}
+
+#componente04 {
+    background-color: #cc3333;
+    align-items: center;
+    margin: 15px 10px 0 10px;
+}
+
+#componente05 {
+    background-color: #663399;
+    align-items: center;
+    margin: 15px 10px 0 10px;
+}
+
+#componente06 {
+    background-color: #0099ff;
+    align-items: center;
+    margin: 15px 10px 0 10px;
+}
+
+#componente07 {
+    background-color: #003399;
+    align-items: center;
+    margin: 15px 10px 0 10px;
+}
+
+#componente08 {
+    background-color: #0066cc;
+    align-items: center;
+    margin: 15px 10px 0 10px;
+}
+
+#componente09 {
+    background-color: #0099cc;
+    align-items: center;
+    margin: 15px 10px 0 10px;
+}
+
+#componente10 {
+    background-color: #666699;
+    align-items: center;
+    margin: 15px 10px 0 10px;
+}
+
+/* CARDS  SECUNDÁRIOS */ 
+#cards h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3366cc;
+    margin-top: 100px;
+}
+
+#fotoSuporte {
+    background: #66cc00;
+    height: 150px;
+    width: 150px;
+    padding: 35px;
+    border-radius: 50%;
+}
+
+#suporte  {    
+    text-align: center;
+    color: #66cc00;
+}
+
+.card-title hr {
+    width: 20%;
+    size: 20px;
+    border: 2px solid #cccccc;
+    position: relative;
+    left: 120px;
+}
+
+.card-title p {
+    color: #666666;
+    font-size: 1.2rem;
+}
+
+#suporteButton {
+    color: #66cc00;
+    padding: 10px;
+    border: 2px solid #66cc00;
+}
+
+#fotoShield {
+    background: #0099ff;
+    height: 150px;
+    width: 150px;
+    padding: 35px;
+    border-radius: 50%;
+}
+
+#shield  {    
+    text-align: center;
+    color: #0099ff;
+}
+
+#shieldButton {
+    color: #0099ff;
+    padding: 10px;
+    border: 2px solid #0099ff;
+}
+
+#fotoNotebook {
+    background: #ffcc00;
+    height: 150px;
+    width: 150px;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+#notebook  {    
+    text-align: center;
+    color: #ffcc00;
+}
+
+#notebookButton {
+    color: #ffcc00;
+    padding: 10px;
+    border: 2px solid #ffcc00;
+}
+
+/* CARDS AGRUPADOS */
+#agrupados h1 {
+    margin-top: 100px;
+    color: #3366cc;
+    text-align: center;
+}
+
+#cardAgrupado {
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+#cardAgrupado div h5 {
+    color: #ff6633;
+}
+
+#cardAgrupado div p {
+    color: #666666;
+}
+
+#card1 {    
+    border-top: 5px solid rgb(184, 183, 183);
+    border-right: 2.5px solid rgb(184, 183, 183);
+    border-bottom: 5px solid rgb(184, 183, 183);
+    border-left: 5px solid rgb(184, 183, 183);
+}
+
+#card2 {    
+    border-top: 5px solid rgb(184, 183, 183);
+    border-right: 2.5px solid rgb(184, 183, 183);
+    border-bottom: 5px solid rgb(184, 183, 183);
+    border-left: 2.5px solid rgb(184, 183, 183);
+}
+
+#card3 {    
+    border-top: 5px solid rgb(184, 183, 183);
+    border-right: 2.5px solid rgb(184, 183, 183);
+    border-bottom: 5px solid rgb(184, 183, 183);
+    border-left: 2.5px solid rgb(184, 183, 183);
+}
+
+#card4 {    
+    border-top: 5px solid rgb(184, 183, 183);
+    border-right: 5px solid rgb(184, 183, 183);
+    border-bottom: 5px solid rgb(184, 183, 183);
+    border-left: 2.5px solid rgb(184, 183, 183);
+}
+
+/* 2ª IMAGEM COM TEXTO DENTRO DA IMAGEM */
+#imagem2 {
+    background: url("../img/achievement-adult-agreement.png");
+    background-size: 100%;
+    height: 280px;
+}
+
+.center {
+    color: white;
+    font-size: 3rem;
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+/* CABEÇALHO DO FORMULÁRIO E FORMULÁRIO */ 
+.textoForm {
+    color: #666666;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+   
+#formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background: rgb(216, 214, 214);
+    font-size: 0.8rem;
+    padding: 20px 40px 20px 40px;
+    color: #686666;
+}
+
+#formulario div div form input {
+    width: 450px;
+    height: 60px;
+}
+
+#formulario div div form button {
+    width: 450px;
+    height: 60px;
+    background: #0099ff;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#lblNome {
+    color: #3366cc;
+}
+
+#nome {
+    border: 2px solid #3366cc;
+    padding-left: 5%;
+    font-size: 1rem;
+}
+
+#sobrenome, #idade, #email, #password {
+    border: none;
+}
+
+/* RODAPÉ - FOOTER */
+#rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(184, 183, 183);
+}
+
+
+/* RESPONSIVIDADE */
+/* Telefones em paisagem e abaixo */
+@media screen and (min-width: 280px) and (max-width: 768px) { 
+    .textoImagem, .subTextoImagem, .botaoImagem, #logoImagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textoImagem {
+        margin-top: 50px;
+        font-size: 2.5rem;
+    }
+
+    .subTextoImagem {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .botaoImagem {
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+
+    #icone {
+        font-size: 0;
+    }
+
+    #textos {
+        margin-top: 100px;
+        font-size: 0.8rem;
+        color: #666666;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    #logoImagem {
+        margin-top: 200px;
+        margin-left: 20%;
+        height: 50px;
+    }
+
+    #componentes {
+        padding: 30px;
+        color: white;
+    }
+
+    .card-title hr {
+        width: 100%;
+        size: 10px;
+        border: 1px solid #cccccc;
+        position: relative;
+        left: 10px;
+    }
+
+    #card1 {    
+        border-top: 5px solid rgb(184, 183, 183);
+        border-right: 5px solid rgb(184, 183, 183);
+        border-bottom: 2.5px solid rgb(184, 183, 183);
+        border-left: 5px solid rgb(184, 183, 183);
+    }
+
+    #card2 {    
+        border-top: 2.5px solid rgb(184, 183, 183);
+        border-right: 5px solid rgb(184, 183, 183);
+        border-bottom: 2.5px solid rgb(184, 183, 183);
+        border-left: 5px solid rgb(184, 183, 183);
+    }
+
+    #card3 {    
+        border-top: 2.5px solid rgb(184, 183, 183);
+        border-right: 5px solid rgb(184, 183, 183);
+        border-bottom: 2.5px solid rgb(184, 183, 183);
+        border-left: 5px solid rgb(184, 183, 183);
+    }
+
+    #card4 {    
+        border-top: 2.5px solid rgb(184, 183, 183);
+        border-right: 5px solid rgb(184, 183, 183);
+        border-bottom: 5px solid rgb(184, 183, 183);
+        border-left: 5px solid rgb(184, 183, 183);
+    }
+
+    #imagem2 {
+        background: url("../img/achievement-adult-agreement.png");
+        background-size: 100%;
+        height: 70px;
+    }
+
+    .textoForm {
+        color: #666666;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    
+    .center {
+        color: white;
+        font-size: 0.7rem;
+        position: relative;
+        margin-top: 3%;
+        text-align: center;
+        padding: 0px 50px;
+    }
+
+    #formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        background: rgb(216, 214, 214);
+        font-size: 0.8rem;
+        padding: 20px 40px 20px 40px;
+        color: #686666;
+    }
+
+    #formulario div div form input {
+        width: 200px;
+        height: 30px;
+    }
+    
+    #formulario div div form button {
+        width: 200px;
+        height: 30px;
+        background: #0099ff;
+        border: none;
+        color: white;
+        font-size: 0.5rem;
+    }
+    
+    #lblNome {
+        color: #3366cc;
+    }
+    
+    #nome {
+        border: 2px solid #3366cc;
+        padding-left: 5%;
+        font-size: 0.5rem;
+    }
+    
+    #sobrenome, #idade, #email, #password {
+        border: none;
+    }
+    
+    #img132 {
+        width: 25%;
+        height: 25%;
+    }
+
+    #img124 {
+        width: 70%;
+        height: 70%;
+    }
+
+    #imagemLeft {
+        margin-left: 5%;
+    }
+}
+
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 767px) and (max-width: 1025px) {
+    .textoImagem, .subTextoImagem, .botaoImagem, #logoImagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textoImagem {
+        margin-top: 50px;
+        font-size: 2.5rem;
+    }
+
+    .subTextoImagem {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .botaoImagem {
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+
+    #icone {
+        font-size: 0;
+    }
+
+    #textos {
+        margin-top: 100px;
+        font-size: 0.8rem;
+        color: #666666;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    #logoImagem {
+        margin-top: 200px;
+        margin-left: 20%;
+        height: 50px;
+    }
+
+    #componentes {
+        padding: 30px;
+        color: white;
+    }
+
+    .card-title hr {
+        width: 100%;
+        size: 10px;
+        border: 1px solid #cccccc;
+        position: relative;
+        left: 10px;
+    }
+
+    #card1 {    
+        border-top: 5px solid rgb(184, 183, 183);
+        border-right: 5px solid rgb(184, 183, 183);
+        border-bottom: 2.5px solid rgb(184, 183, 183);
+        border-left: 5px solid rgb(184, 183, 183);
+    }
+
+    #card2 {    
+        border-top: 2.5px solid rgb(184, 183, 183);
+        border-right: 5px solid rgb(184, 183, 183);
+        border-bottom: 2.5px solid rgb(184, 183, 183);
+        border-left: 5px solid rgb(184, 183, 183);
+    }
+
+    #card3 {    
+        border-top: 2.5px solid rgb(184, 183, 183);
+        border-right: 5px solid rgb(184, 183, 183);
+        border-bottom: 2.5px solid rgb(184, 183, 183);
+        border-left: 5px solid rgb(184, 183, 183);
+    }
+
+    #card4 {    
+        border-top: 2.5px solid rgb(184, 183, 183);
+        border-right: 5px solid rgb(184, 183, 183);
+        border-bottom: 5px solid rgb(184, 183, 183);
+        border-left: 5px solid rgb(184, 183, 183);
+    }
+
+    #imagem2 {
+        background: url("../img/achievement-adult-agreement.png");
+        background-size: 100%;
+        height: 70px;
+    }
+
+    .textoForm {
+        color: #666666;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    
+    .center {
+        color: white;
+        font-size: 0.7rem;
+        position: relative;
+        margin-top: 3%;
+        text-align: center;
+        padding: 0px 50px;
+    }
+
+    #formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        background: rgb(216, 214, 214);
+        font-size: 0.8rem;
+        padding: 20px 40px 20px 40px;
+        color: #686666;
+    }
+
+    #formulario div div form input {
+        width: 200px;
+        height: 30px;
+    }
+    
+    #formulario div div form button {
+        width: 200px;
+        height: 30px;
+        background: #0099ff;
+        border: none;
+        color: white;
+        font-size: 0.5rem;
+    }
+    
+    #lblNome {
+        color: #3366cc;
+    }
+    
+    #nome {
+        border: 2px solid #3366cc;
+        padding-left: 5%;
+        font-size: 0.5rem;
+    }
+    
+    #sobrenome, #idade, #email, #password {
+        border: none;
+    }
+    
+    #img132 {
+        width: 25%;
+        height: 25%;
+    }
+
+    #img124 {
+        width: 70%;
+        height: 70%;
+    }
+
+    #imagemLeft {
+        margin-left: 5%;
+    }
+}
+
+
+
